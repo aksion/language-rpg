@@ -4,6 +4,10 @@
 
 'patterns': [
     {
+      'match': '\\b(\*\*FREE)\\b'
+      'name': 'constant.numeric.mylanguage'
+    },
+    {
       'match': '\\b(Dcl-Proc)\\s+(\\w+)\\s*'
       'captures':
         '1':
