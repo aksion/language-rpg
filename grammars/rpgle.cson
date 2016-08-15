@@ -4,7 +4,7 @@
 
 'patterns': [
     {
-      'match': '\\b(Dcl-Proc)\\s+(\\w+)\\s*\\(.*\\)'
+      'match': '\\b(Dcl-Proc)\\s+(\\w+)\\s*'
       'captures':
         '1':
             'name': 'keyword.control.rpgle'
