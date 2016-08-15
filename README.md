@@ -1,2 +1,3 @@
-# AtomRPGLE
-Atom package to highlighting RPGLE syntax.
+# language-rpgle package
+
+This package adds the support of RPGLE language in Atom, with syntax highlighting.
