@@ -27,6 +27,7 @@
     {
       'match': '\\s(\\/\\/)\\s\\w'
       'name': 'comment.line.number-sign'
+      'name': 'comment.line.number-sign'      
     },
     {
       'match': '\\s(\\/\\/)=*'
