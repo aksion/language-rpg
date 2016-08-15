@@ -23,5 +23,17 @@
       'captures':
         '1':
             'name': 'keyword.control.rpgle'
+    },
+    {
+      'match': '\\s(\\/\\/)\\s\\w'
+      'captures':
+        '1':
+            'name': 'comment.line.number-sign'
+    },
+    {
+      'match': '\\s(\\/\\/)=*'
+      'captures':
+        '1':
+            'name': 'comment.line.number-sign'
     }
 ]
