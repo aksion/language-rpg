@@ -29,6 +29,7 @@
       'captures':
         '1':
             'name': 'comment.line.number-sign'
+        '2':
             'name': 'comment.line.number-sign'
             'name': 'comment.line.number-sign'
     },
@@ -37,6 +38,7 @@
       'captures':
         '1':
             'name': 'comment.line.number-sign'
+        '2':
             'name': 'comment.line.number-sign'
     }
 ]
