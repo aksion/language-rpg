@@ -19,7 +19,7 @@
             'name': 'meta.function.rpgle'
     },
     {
-      'match': '\s(End-Proc;)\$'
+      'match': '\\s(End-Proc\;)\$'
       'captures':
         '1':
             'name': 'keyword.control.rpgle'
