@@ -25,7 +25,7 @@
             'name': 'keyword.control.rpgle'
     },
     {
-      'match': '\\s(\\/\\/)\\s\\b'
+      'match': '\\s(\\/\\/)\\s.*'
       'name': 'comment.line.number-sign'
     },
     {
