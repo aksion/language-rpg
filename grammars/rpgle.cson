@@ -31,5 +31,9 @@
     {
       'match': '\\s(\\/\\/)=*'
       'name': 'comment.line.number-sign'
+    },
+    {
+      'match': '\\s(Dim(\\.*))\\b'
+      'name': 'meta.array'
     }
 ]
