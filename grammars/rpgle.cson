@@ -29,11 +29,14 @@
       'captures':
         '1':
             'name': 'comment.line.number-sign'
+            'name': 'comment.line.number-sign'
+            'name': 'comment.line.number-sign'
     },
     {
       'match': '\\s(\\/\\/)=*'
       'captures':
         '1':
+            'name': 'comment.line.number-sign'
             'name': 'comment.line.number-sign'
     }
 ]
