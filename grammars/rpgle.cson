@@ -5,10 +5,12 @@
 'patterns': [
     {
       'match': '\^(\\*\\*FREE)\\b'
-      'name': 'keyword.control.rpgle'
+      'captures':
+        '1':
+            'name': 'keyword.control.rpgle'
     },
     {
-      'match': '\\b(Dcl-Proc)\\s+(\\w+)\\s*'
+      'match': '\\b(Dcl-Proc)\\s+\\w'
       'captures':
         '1':
             'name': 'keyword.control.rpgle'
