@@ -1,0 +1,15 @@
+'scopeName': 'source.rpgle'
+'name': 'RPGLE'
+'fileTypes': ['rpgle', 'sqlrpgle']
+
+'patterns': [
+    {
+      'match': '\\b(Dcl-Proc)\\s+(\\w+)\\s*\\(.*\\)'
+      'captures':
+        '1':
+            'name': 'keyword.control.rpgle'
+        '2':
+            'name': 'entity.name.function.rpgle'
+            'name': 'meta.function.rpgle'
+    }
+]
