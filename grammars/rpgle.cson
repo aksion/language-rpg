@@ -5,7 +5,7 @@
 'patterns': [
     {
       'match': '\^(\\*\\*FREE)\\b'
-      'name': 'constant.numeric.rpgle'
+      'name': 'keyword.control.rpgle'
     },
     {
       'match': '\\b(Dcl-Proc)\\s+(\\w+)\\s*'
