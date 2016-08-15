@@ -1,0 +1,17 @@
+{
+  "name": "language-rpgle",
+  "version": "0.0.0",
+  "description": "RPGLE language support in Atom",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aksion/AtomRPGLE.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aksion/AtomRPGLE/issues"
+  },
+  "license": "MIT"
+}
