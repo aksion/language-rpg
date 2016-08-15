@@ -17,5 +17,11 @@
         '2':
             'name': 'entity.name.function.rpgle'
             'name': 'meta.function.rpgle'
+    },
+    {
+      'match': '\^(End-Proc;)\$'
+      'captures':
+        '1':
+            'name': 'keyword.control.rpgle'
     }
 ]
