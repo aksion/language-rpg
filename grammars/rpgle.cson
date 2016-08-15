@@ -36,6 +36,6 @@
       'match': '\\s(Dim(\\.*))\\b'
       'captures':
         '1':
-            'name': 'keyword.control.rpgle'
+            'name': 'meta.array'
     }
 ]
