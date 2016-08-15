@@ -10,7 +10,7 @@
             'name': 'keyword.control.rpgle'
     },
     {
-      'match': '\\b(Dcl-Proc)\\s+\\w'
+      'match': '\\s(Dcl-Proc)\\s+\\w'
       'captures':
         '1':
             'name': 'keyword.control.rpgle'
@@ -19,7 +19,7 @@
             'name': 'meta.function.rpgle'
     },
     {
-      'match': '\^(End-Proc;)\$'
+      'match': '\s(End-Proc;)\$'
       'captures':
         '1':
             'name': 'keyword.control.rpgle'
@@ -28,12 +28,12 @@
       'match': '\\s(\\/\\/)\\s\\w'
       'captures':
         '1':
-            'name': 'comment.line.number-sign'
+            'name': 'keyword.control.rpgle'
     },
     {
       'match': '\\s(\\/\\/)=*'
       'captures':
         '1':
-            'name': 'comment.line.number-sign'
+            'name': 'keyword.control.rpgle'
     }
 ]
