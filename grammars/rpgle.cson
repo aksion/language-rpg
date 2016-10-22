@@ -1,5 +1,5 @@
-'scopeName': 'source.rpgle'
-'name': 'RPGLE'
+'scopeName': 'source.rpg'
+'name': 'RPG'
 'fileTypes': ['rpg', 'rpgle', 'sqlrpgle']
 
 'patterns': [
@@ -7,22 +7,22 @@
       'match': '\^(\\*\\*FREE)\\b'
       'captures':
         '1':
-            'name': 'keyword.control.rpgle'
+            'name': 'keyword.control.rpg'
     },
     {
-      'match': '\\s(Dcl-Proc)\\s+\\w'
+      'match': '(?i)\\s(dcl-proc)\\s+\\w'
       'captures':
         '1':
-            'name': 'keyword.control.rpgle'
+            'name': 'keyword.control.rpg'
         '2':
-            'name': 'entity.name.function.rpgle'
-            'name': 'meta.function.rpgle'
+            'name': 'entity.name.function.rpg'
+            'name': 'meta.function.rpg'
     },
     {
-      'match': '\\s(End-Proc;)$'
+      'match': '(?i)\\s(end-proc;)$'
       'captures':
         '1':
-            'name': 'keyword.control.rpgle'
+            'name': 'keyword.control.rpg'
     },
     {
       'match': '\\s(\\/\\/)\\s.*'
@@ -33,21 +33,57 @@
       'name': 'comment.line.number-sign'
     },
     {
-      'match': '\\s(Dim(\\.*))\\b'
+      'match': '(?i)\\s(dim(\\.*))\\b'
       'captures':
         '1':
             'name': 'meta.array'
     },
     {
-      'match': '\\b(not|acq|add|adddur|alloc|and|bitoff|biton|cab|call|callb|callp|cas|cat|chain|check|checkr|clear|close|commit|comp|dealloc|define|delete|div|dsply|dump|eval|evalr|except|exfmt|exsr|extrct|feod|force|goto|in|iter|kfld|klist|leave|leavesr|lookup|mhhzo|mhlzo|mlhzo|mllzo|monitor|move|movea|movel|mult|mvr|next|occur|on|open|or|other|out|parm|plist|post|read|readc|reade|readp|readpe|realloc|rel|reset|reset|return|rolbk|scan|setgt|setll|setoff|seton|shtdn|sorta|sqrt|sub|subdur|subst|tag|test|testb|testn|testz|time|unlock|update|write|xfoot|xlate|z-add|z-sub)\\b'
+      'match': '(?i)\\b(not|acq|add|adddur|alloc|and|bitoff|biton|cab|call|callb|callp|cas|cat|chain|check|checkr|clear|close|commit|comp|dealloc|define|delete|div|dsply|dump|eval|evalr|except|exfmt|exsr|extrct|feod|force|goto|in|iter|kfld|klist|leave|leavesr|lookup|mhhzo|mhlzo|mlhzo|mllzo|move|movea|movel|mult|mvr|next|occur|on|open|or|other|out|parm|plist|post|read|readc|reade|readp|readpe|realloc|rel|reset|reset|Return|rolbk|scan|setgt|setll|setoff|seton|shtdn|sorta|sqrt|sub|subdur|subst|tag|test|testb|testn|testz|time|unlock|update|write|xfoot|xlate|z-add|z-sub|monitor|on-error|endmon)\\b'
       'captures':
         '1':
-            'name': 'keyword.operator.rpgle'
+            'name': 'keyword.operator.rpg'
     },
     {
-      'match': '\\b(Dcl-S|Dcl-C|Dcl-DS|End-DS|Dcl-PI|End-PI)\\b'
+      'match': '(?i)\\b(dcl-s|dcl-c|dcl-ds|end-ds|dcl-pi|end-pi|dcl-pr|end-pr)\\b'
       'captures':
         '1':
-            'name': 'storage.type.rpgle'
-    }
+            'name': 'storage.type.rpg'
+    },
+    {
+      'match': '(?i)\\b(ctl-opt)\\b'
+      'captures':
+        '1':
+            'name': 'keyword.other.rpg'
+    },
+    {
+      'match': '(?i)[\\*](On|Off|Entry|All|Blank|Blanks|Zero|Zeros|Hival|Loval)\\b'
+      'captures':
+        '1':
+            'name': 'constant.language.rpg'
+    },
+    {
+      'match': '(?i)\\b(for|if|do|dow|dou|select|begsr|endsr|endif|endsl|enddo|endfor)\\b'
+      'captures':
+        '1':
+            'name': 'keyword.control.rpg'
+    },
+    {
+      'match': '(?i)\\b(when|exsr|else|elseif|other)\\b'
+      'captures':
+        '1':
+            'name': 'keyword.control.rpg'
+    },
+    {
+      'match': '(?i)[\\%](abs|addr|alloc|bitand|bitnot|bitor|bitxor|char|check|checkr|date|days|dec|dech|decpos|diff|div|editc|editflt|editw|elem|eof|equal|error|fields|float|found|graph|hours|int|inth|kds|len|lookup|minutes|months|mseconds|nullind|occur|open|paddr|paddr|parms|realloc|rem|replace|scan|seconds|shtdn|size|sqrt|status|str|str|str|subdt|this|time|timestamp|tlookup|trim|triml|trimr|ucs2|uns|unsh|xfoot|xlate|years)\\b'
+      'captures':
+        '1':
+            'name': 'keyword.operator.rpg'
+    },
+    {
+      'match': '(?i)^\\s*(\/free|\/end-free|\/include|\/copy)\\b'
+      'captures':
+        '1':
+            'name': 'keyword.operator.rpg'
+    }    
 ]

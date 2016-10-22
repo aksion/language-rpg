@@ -1,17 +1,17 @@
 {
-  "name": "language-rpgle",
-  "version": "0.0.1",
-  "description": "RPGLE language support in Atom",
+  "name": "language-rpg",
+  "version": "0.0.2",
+  "description": "RPG language support in Atom",
   "engines": {
     "atom": "*"
   },
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/aksion/language-rpgle.git"
+    "url": "https://github.com/aksion/language-rpg.git"
   },
   "bugs": {
-    "url": "https://github.com/aksion/language-rpgle/issues"
+    "url": "https://github.com/aksion/language-rpg/issues"
   },
   "license": "MIT"
 }
