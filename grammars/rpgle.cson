@@ -43,5 +43,11 @@
       'captures':
         '1':
             'name': 'keyword.operator.rpgle'
+    },
+    {
+      'match': '\\b(Dcl-S|Dcl-C|Dcl-DS|End-DS|Dcl-PI|End-PI)\\b'
+      'captures':
+        '1':
+            'name': 'storage.type.rpgle'
     }
 ]
