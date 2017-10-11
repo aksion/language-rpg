@@ -6,4 +6,4 @@ This package adds the support of RPG language in Atom, with syntax highlighting.
 To load package go to the Edit > Preferences > Install, put this url https://github.com/aksion/language-rpgle in a search string and push the Install button.
 
 ## What theme use?
-For best view do Edit > Preferences > Theme > Choose *UI Theme* "Seti" and *Syntax Theme* "Monokai Seti".
+Install this theme: https://github.com/aksion/rpg-atom-syntax-theme

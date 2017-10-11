@@ -4,7 +4,7 @@
 
 'patterns': [
     {
-      'match': '\^(\\*\\*FREE)\\b'
+      'match': '\^(\\*\\*free)\\b'
       'captures':
         '1':
             'name': 'keyword.control.rpg'
@@ -39,7 +39,7 @@
             'name': 'meta.array'
     },
     {
-      'match': '(?i)\\b(not|acq|add|adddur|alloc|and|bitoff|biton|cab|call|callb|callp|cas|cat|chain|check|checkr|clear|close|commit|comp|dealloc|define|delete|div|dsply|dump|eval|evalr|except|exfmt|exsr|extrct|feod|force|goto|in|iter|kfld|klist|leave|leavesr|lookup|mhhzo|mhlzo|mlhzo|mllzo|move|movea|movel|mult|mvr|next|occur|on|open|or|other|out|parm|plist|post|read|readc|reade|readp|readpe|realloc|rel|reset|reset|Return|rolbk|scan|setgt|setll|setoff|seton|shtdn|sorta|sqrt|sub|subdur|subst|tag|test|testb|testn|testz|time|unlock|update|write|xfoot|xlate|z-add|z-sub|monitor|on-error|endmon)\\b'
+      'match': '(?i)\\b(not|acq|add|adddur|alloc|and|bitoff|biton|cab|call|callb|callp|cas|cat|chain|check|checkr|clear|close|commit|comp|dealloc|define|delete|div|dsply|dump|eval|evalr|except|exfmt|exsr|extrct|feod|force|goto|in|iter|kfld|klist|lookup|mhhzo|mhlzo|mlhzo|mllzo|move|movea|movel|mult|mvr|next|occur|on|open|or|other|out|parm|plist|post|read|readc|reade|readp|readpe|realloc|rel|reset|reset|Return|rolbk|scan|setgt|setll|setoff|seton|shtdn|sorta|sqrt|sub|subdur|subst|tag|test|testb|testn|testz|time|unlock|update|write|xfoot|xlate|z-add|z-sub|monitor|on-error|endmon)\\b'
       'captures':
         '1':
             'name': 'keyword.operator.rpg'
@@ -63,7 +63,7 @@
             'name': 'constant.language.rpg'
     },
     {
-      'match': '(?i)\\b(for|if|do|dow|dou|select|begsr|endsr|endif|endsl|enddo|endfor)\\b'
+      'match': '(?i)\\b(for|if|do|dow|dou|select|begsr|endsr|endif|endsl|enddo|endfor|return|leave|leavesr)\\b'
       'captures':
         '1':
             'name': 'keyword.control.rpg'
@@ -85,5 +85,5 @@
       'captures':
         '1':
             'name': 'keyword.operator.rpg'
-    }    
+    }
 ]
